@@ -1,0 +1,86 @@
+/*
+Auteur: don, Arda, Tygo
+    Aanmaakdatum: 05-04-2022
+
+instructie pagina
+*/
+body
+{
+    background-color:white;
+}
+/*het positioneren van de navigatie balk*/
+header
+{
+    position: fixed;
+    padding: 5px;           /*opvulling toevoegen*/
+    font-size: 20px;
+    float: left;                            /*navigatie balk pagina text positioneren naast elkaar*/
+    right: 0;
+    top: 0;
+    left: 0;
+    background-color: ;
+}
+li
+{
+    float: left;
+    list-style: none;
+    font-style: normal;
+    padding-left: 15px;
+}
+li > a
+{
+    text-decoration: none;
+    padding-left: 10px;                      /*opvulling toevoegen*/
+    padding-right: 10px;
+}
+a
+{
+    color: white;       /*text kleur toevoegen*/
+}
+a:hover
+{
+    background-color: darkorange;
+}
+#logo_RG
+{
+    float: left;
+    width: 80px;
+    top: 2px;
+}
+.background_img
+{
+    width: 100vw;
+    height: 50vw;
+
+}
+.button_vraag
+{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    padding: 18px;
+    width: 50%;
+    border: 2px grey solid;
+    text-align: left;
+    outline: none;
+    font-size: 24px;
+}
+.button_vraag:hover
+{
+
+    background-color: orange;
+
+}
+.FAQ_antwoord
+{
+    font-size: 24px;
+    padding: 18px;
+    border: 2px grey solid;
+    background-color: black;
+    color: white;
+    display: none;
+}
+main
+{
+    margin-top: 30vh;
+}
