@@ -21,7 +21,7 @@
             <a href="#" title="Informatie voor studenten">Studenteninfo</a>
         </li>
         <li>
-            <a href="../vragen.php"> VragenLijst </a>
+            <a href="../pagina's/vragen.php"> VragenLijst </a>
         </li>
     </ul>
 </nav>
