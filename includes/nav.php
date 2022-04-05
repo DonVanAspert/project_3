@@ -1,20 +1,27 @@
-<!DOCTYPE html>
-<!--
-    Auteur: <tygo bovens>
-    Aanmaakdatum: <20/10/2021>
+<?php
+/**************************
+ * Bestand  : NAV.php
+ * User     : Arda Agar
+ * Datum    : 31-3-2022
+ ****************************/
+?>
 
-    template
--->
-<html>
-<head>
-    <title>
-        oi bruv
-    </title>
-    <meta charset="utf_8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="../styles/stylesheet.css" rel="stylesheet">
-</head>
-<body>
-<p>oi</p>
-</body>
-</html>
+<nav>
+    <ul>
+        <li>
+            <a href="#" title="Aanbod van opleidingen"> Opleidingen</a>
+        </li>
+        <li>
+            <a href="#" title="Hulp bij studiekeuze">Studiekeuze</a>
+        </li>
+        <li>
+            <a href="#" title="Volwassenen en werkgevers">Volwassenen &amp; Werkgevers</a>
+        </li>
+        <li>
+            <a href="#" title="Informatie voor studenten">Studenteninfo</a>
+        </li>
+        <li>
+            <a href="../pagina's/vragen.php"> VragenLijst </a>
+        </li>
+    </ul>
+</nav>
