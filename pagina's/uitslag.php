@@ -18,6 +18,13 @@
     <?php
         include_once '../includes/NAV.php';
     ?>
+
+<p>Hallo, NAME</p>
+<p>datum</p>
+<p>dit is je advies</p>
+<p>hier kan je naar de pagina van jouw advies</p>
+<p>bij vraag 1 heb je ... gekozen</p>
+
 </body>
 </html>
 
