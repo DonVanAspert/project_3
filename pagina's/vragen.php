@@ -8,7 +8,7 @@
 <html lang="nl">
 <head>
     <title>
-        oi bruv
+        vragenlijst opleiding
     </title>
     <meta charset="utf_8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">

@@ -8,13 +8,15 @@
 <html lang="nl">
 <head>
     <title>
-        oi bruv
+        Homepage KW1C
     </title>
     <meta charset="utf_8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="../styles/stylesheet.css" rel="">
 </head>
 <body>
-
+    <?php
+        include_once '../includes/NAV.php';
+    ?>
 </body>
 </html>
