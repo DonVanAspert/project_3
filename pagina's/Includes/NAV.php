@@ -20,5 +20,8 @@
         <li>
             <a href="#" title="Informatie voor studenten">Studenteninfo</a>
         </li>
+        <li>
+            <a href="../vragen.php"> VragenLijst </a>
+        </li>
     </ul>
 </nav>
