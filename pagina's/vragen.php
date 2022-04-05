@@ -15,6 +15,8 @@
     <link href="../styles/stylesheet.css" rel="">
 </head>
 <body>
-
+    <?php
+        include_once '../includes/NAV.php';
+    ?>
 </body>
 </html>

@@ -5,7 +5,7 @@
 
     template
 -->
-<html>
+<html lang="nl">
 <head>
     <title>
         oi bruv
