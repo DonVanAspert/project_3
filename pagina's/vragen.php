@@ -22,10 +22,17 @@ include "../includes/NAV.php"
 <br>
 <br>
 <br>
+<br>
+<br>
+<br>
+<br>
 <h1>
     Welkom op de Vragenlijst om een opleiding te zoeken die bij je past
 </h1>
 <form action="uitslag.php">
+    <?php
+    //
+    ?>
     <h3>
         Vraag 1: Heb jij echt verstand van computers en netwerken? Vind je het ook leuk om dienstverlenend te zijn?
     </h3>
