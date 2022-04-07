@@ -20,15 +20,7 @@ include "../includes/NAV.php"
 ?>
 <br>
 <br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<h1>
-    Welkom op de Vragenlijst om een opleiding te zoeken die bij je past
-</h1>
+
 <form action="uitslag.php">
     <?php
     //
