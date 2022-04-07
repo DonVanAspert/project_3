@@ -16,7 +16,7 @@
 </head>
 <body>
     <?php
-        include_once '../includes/nav.php';
+        include_once 'includes/nav.php';
     ?>
     <img src="Images/Homepage_img.jpg" rel="homepage_img">
     <h2>
