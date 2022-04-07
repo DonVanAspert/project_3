@@ -7,7 +7,7 @@
 ?>
 <header>
     <nav>
-        <img id="logo_KW1C" src="../Images/logo_KW1C.png" alt="logo">
+        <img id="logo_KW1C" src="../Images/logo_KW1C.jpg" alt="logo">
     <ul>
         <li>
             <a href="../index.php" title="Home">Home</a>

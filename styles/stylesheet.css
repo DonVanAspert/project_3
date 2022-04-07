@@ -6,7 +6,9 @@ instructie pagina
 */
 body
 {
-    background-color:white;
+    background-color: #66b6df;
+    margin: 0;
+    color: white;
 }
 /*het positioneren van de navigatie balk*/
 header
@@ -18,7 +20,7 @@ header
     right: 0;
     top: 0;
     left: 0;
-    background-color: dodgerblue;
+    background-color: #0085ca!important;                    /*het toevoegen van een belangrijke kleur*/
 }
 li
 {
@@ -39,10 +41,10 @@ a
 }
 a:hover
 {
-    color: dodgerblue;
+    color: #0085ca!important;                   /*het toevoegen van een belangrijke kleur*/
     background-color: white;
-    padding-top: 62.5px;
-    padding-bottom: 62.5px;
+    padding-top: 48px;
+    padding-bottom: 48px;
 }
 #logo_KW1C
 {
@@ -52,3 +54,15 @@ a:hover
     margin-top: -15px;
     margin-bottom: 20px;
 }
+#home_img
+{
+    width: 100%;
+    float: left;
+}
+h1
+ {
+     position: absolute;
+     font: 48px;
+     margin-top: 600px;
+
+ }
