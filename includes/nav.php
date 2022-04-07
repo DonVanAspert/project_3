@@ -10,7 +10,7 @@
         <img id="logo_KW1C" src="../Images/logo_KW1C.png" alt="logo">
     <ul>
         <li>
-            <a href="../pagina's/index.php" title="Home">Home</a>
+            <a href="../index.php" title="Home">Home</a>
         </li>
         <li>
             <a href="#" title="Aanbod van opleidingen">Opleidingen</a>

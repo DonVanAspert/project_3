@@ -12,13 +12,13 @@
     </title>
     <meta charset="utf_8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="../styles/stylesheet.css" rel="stylesheet">
+    <link href="styles/stylesheet.css" rel="stylesheet">
 </head>
 <body>
     <?php
-        include_once '../includes/NAV.php';
+        include_once '../includes/nav.php';
     ?>
-    <img src="../Images/Homepage_img.jpg" rel="homepage_img">
+    <img src="Images/Homepage_img.jpg" rel="homepage_img">
     <h2>
         Algemeen
     </h2>
