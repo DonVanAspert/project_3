@@ -22,6 +22,10 @@ header
     left: 0;
     background-color: #0085ca!important;                    /*het toevoegen van een belangrijke kleur*/
 }
+a
+{
+    color: white;
+}
 li
 {
     float: left;
@@ -34,10 +38,6 @@ li > a
     text-decoration: none;
     padding-left: 10px;                      /*opvulling toevoegen*/
     padding-right: 10px;
-}
-a
-{
-    color: white;       /*text kleur toevoegen*/
 }
 a:hover
 {
@@ -60,9 +60,6 @@ a:hover
     float: left;
 }
 h1
- {
-     position: absolute;
-     font: 48px;
-     margin-top: 600px;
-
+{
+     font-size: 48px;
  }
