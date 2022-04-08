@@ -22,6 +22,10 @@ header
     left: 0;
     background-color: #0085ca!important;                    /*het toevoegen van een belangrijke kleur*/
 }
+a
+{
+    color: white;
+}
 li
 {
     float: left;
@@ -32,14 +36,9 @@ li
 li > a
 {
     text-decoration: none;
-    padding-left: 10px;                      /*opvulling toevoegen*/
-    padding-right: 10px;
+    padding: 10px;                      /*opvulling toevoegen*/
 }
-a
-{
-    color: white;       /*text kleur toevoegen*/
-}
-a:hover
+.nav:hover
 {
     color: #0085ca!important;                   /*het toevoegen van een belangrijke kleur*/
     background-color: white;
@@ -59,10 +58,47 @@ a:hover
     width: 100%;
     float: left;
 }
-h1
- {
-     position: absolute;
-     font: 48px;
-     margin-top: 600px;
-
- }
+#H1_homepage
+{
+     font-size: 48px;
+     margin-left: auto;
+     margin-right: auto;
+     width: 9em
+}
+h2
+{
+    font-size: 35px;
+    margin: 0;
+    margin-bottom: 10px;
+}
+.homepage_block1
+{
+    float: left;
+    background-color: #0085ca;
+    display: inline-block;                  /* Vaste breedte veranderd naar 16% */
+    width: 60%;                          /* Marge van 2% (telt dubbel, links en rechts) */
+    margin: 1%;
+    padding: 5px;
+    box-sizing: border-box
+}
+.homepage_block2
+{
+    position: fixed;
+    font-size: 20px;
+    float: right;
+    background-color: #0085ca;
+    display: inline-block;
+    width: 35%;                          /* Vaste breedte veranderd naar 30% */
+    margin: 1%;                         /* Marge van 1% (telt dubbel, links en rechts) */
+    padding: 5px;
+}
+#PDF_brochure
+{
+    background-color: red;
+    padding: 5px;
+    margin: 5px;
+}
+#block_red
+{
+    background-color: #ff0000;
+}
