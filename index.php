@@ -39,7 +39,7 @@
     </div>
     <div class="homepage_block2">
         <h2>
-            Informatie
+                Informatie
         </h2>
         <p>
             Download de brochure van deze afdeling:
