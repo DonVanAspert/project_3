@@ -19,11 +19,26 @@
         include_once '../includes/NAV.php';
     ?>
 
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
 <p>Hallo, NAME</p>
 <p>datum</p>
 <p>dit is je advies</p>
 <p>hier kan je naar de pagina van jouw advies</p>
 <p>bij vraag 1 heb je ... gekozen</p>
+
+
+
+    <?php
+    echo "Study " . $_GET['subject'] . " at " . $_GET['name'];
+    ?>
+
 
 </body>
 </html>

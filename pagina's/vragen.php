@@ -33,6 +33,11 @@ include "../includes/NAV.php"
     <?php
     //
     ?>
+    <p>
+        wat is je naam
+    </p>
+    <label for="fname">First name:</label><br>
+    <input type="text" id="fname" name="fname"><br>
     <h3>
         Vraag 1: Heb jij echt verstand van computers en netwerken? Vind je het ook leuk om dienstverlenend te zijn?
     </h3>
@@ -105,6 +110,9 @@ include "../includes/NAV.php"
     <br>
     <input type="radio" name="antwoord4"> Ik heb geen website gemaakt maar het lijkt wel leuk
     <br>
+    <br>
+    <br>
+    <input type="submit" value="Submit">
 </form>
 </body>
 </html>
