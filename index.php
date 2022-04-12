@@ -44,7 +44,7 @@
         <p>
             Download de brochure van deze afdeling:
         </p>
-        <a id="PDF_brochure" href="#" title="brochure">brochure in PDF</a>
+        <a id="PDF_brochure" href="./pagina's/brochure_ICT.pdf" title="brochure" target="_blank">brochure in PDF</a>
     </div>
     <div class="homepage_block2">
         <h2>
@@ -58,8 +58,10 @@
         <h2>
             Heb je vragen? Wij geven jou advies:
         </h2>
-        <a href="#" title="gesprek">Gesprek met een studieadviseur</a>
-        <a href="#" title="vraag stellen online">Stel je vraag online</a>
+        <a href="#" title="gesprek">-Gesprek met een studieadviseur</a>
+        <br>
+        <br>
+        <a href="#" title="vraag stellen online">-Stel je vraag online</a>
     </div>
 </body>
 </html>
