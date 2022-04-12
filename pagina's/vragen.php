@@ -14,7 +14,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="../styles/stylesheet.css" rel="stylesheet">
 </head>
-<body>
+<input>
 <?php
 include "../includes/NAV.php"
 ?>
@@ -29,16 +29,18 @@ include "../includes/NAV.php"
 <h1>
     Welkom op de Vragenlijst om een opleiding te zoeken die bij je past
 </h1>
-<form action="uitslag.php">
+<input action="uitslag.php">
     <?php
     //
     ?>
     <p>
-        wat is je naam
+        wat is je naam:
     </p>
-    <label for="fname">First name:</label><br>
-    <input type="text" id="fname" name="fname"><br>
-    <h3>
+    <label for="fname">First name:</label>
+    <br>
+    <input type="text" id="fname" name="fname">
+    <br>
+    <h3 class="vraag_Vl">
         Vraag 1: Heb jij echt verstand van computers en netwerken? Vind je het ook leuk om dienstverlenend te zijn?
     </h3>
     <br>
@@ -50,7 +52,7 @@ include "../includes/NAV.php"
     <br>
     <input type="radio" name="antwoord4"> helemaal niet
     <br>
-    <h3>
+    <h3 class="vraag_Vl">
         Vraag 2: Heb je interresse van het coderen van software (bijv. games , apps of websites)
     </h3>
     <br>
@@ -62,7 +64,7 @@ include "../includes/NAV.php"
     <br>
     <input type="radio" name="antwoord4"> helemaal niet
     <br>
-    <h3>
+    <h3 class="vraag_Vl">
     Vraag 3: Voel je je thuis in virtual reality? Communiceer je goed in bits & bytes? Vind je het ook leuk om dienstverlenend te zijn?
     </h3>
     <br>
@@ -74,11 +76,11 @@ include "../includes/NAV.php"
     <br>
     <input type="radio" name="antwoord4"> helemaal niet
     <br>
-    <h3>
+    <h3 class="vraag_Vl">
     Vraag 4: Wil jij later verantwoordelijk zijn voor de informatiesystemen waar de moderne maatschappij op draait?
     </h3>
     <br>
-    <input type="radio" name="antwoord1"> Ja
+    <input type="radio" name="antwoord1" > Ja
     <br>
     <input type="radio" name="antwoord2"> matig
     <br>
@@ -86,7 +88,7 @@ include "../includes/NAV.php"
     <br>
     <input type="radio" name="antwoord4"> helemaal niet
     <br>
-    <h3>
+    <h3 class="vraag_Vl">
         Vraag 5: Vindt je het leuk om computers te bouwen
     </h3>
     <br>
@@ -98,7 +100,7 @@ include "../includes/NAV.php"
     <br>
     <input type="radio" name="antwoord4"> Ik heb er niet een gebouwt maar lijkt me wel leuk
     <br>
-    <h3>
+    <h3 class="vraag_Vl">
     Vraag 6: heb je interesse gehad om websites of software te programeren
     </h3>
     <br>
@@ -112,7 +114,7 @@ include "../includes/NAV.php"
     <br>
     <br>
     <br>
-    <input type="submit" value="Submit">
+    <input id="submit_block" type="submit" value="Submit">
 </form>
 </body>
 </html>
