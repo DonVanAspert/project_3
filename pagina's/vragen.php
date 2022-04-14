@@ -173,6 +173,9 @@ include "../includes/NAV.php"
       <label for="matig">er tussen in.</label>
     <br>
     <br>
+    <h2>
+        !!!!! Alleen klikken als je alle vragen heb aangeklikt !!!!!
+    </h2>
     <input type="submit" name="verzend">
 </form>
 </body>
