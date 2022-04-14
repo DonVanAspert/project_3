@@ -28,6 +28,12 @@ include "../includes/NAV.php"
     Welkom op de Vragenlijst om een opleiding te zoeken die bij je past.
 </h1>
 <form action="uitslag.php" method="post">
+
+    <label>
+        als eerst wat is uw naam:
+    </label>
+    <input type="text" name="naam">
+    <br>
     <h3>
         Vraag 1: Heb jij echt verstand van computers en netwerken? Vind je het ook leuk om dienstverlenend te zijn?
     </h3>
