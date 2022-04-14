@@ -29,7 +29,7 @@ include "../includes/NAV.php"
 <h1>
     Welkom op de Vragenlijst om een opleiding te zoeken die bij je past
 </h1>
-<form action="uitslag.php" method="post">
+<form action="uitslag.php">
     <?php
     //
     ?>
@@ -103,14 +103,8 @@ include "../includes/NAV.php"
     <br>
     <input type="radio" name="antwoord23"> nee
     <br>
-    <input type="radio" name="antwoord24"> Ik heb geen website gemaakt maar het lijkt wel leuk
+    <input type="radio" name="antwoord244"> Ik heb geen website gemaakt maar het lijkt wel leuk
     <br>
-    <h3>
-        vraag 7:
-    </h3>
-    <br>
-    <br>
-    <input type="submit" name="verzend">
 </form>
 </body>
 </html>
