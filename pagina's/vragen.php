@@ -25,7 +25,7 @@ include "../includes/NAV.php"
 <br>
 <br>
 <h1>
-    Welkom op de Vragenlijst om een opleiding te zoeken die bij je past
+    Welkom op de Vragenlijst om een opleiding te zoeken die bij je past.
 </h1>
 <form action="uitslag.php" method="post">
     <h3>
@@ -39,7 +39,7 @@ include "../includes/NAV.php"
       <label for="matig">er tussen in</label>
     <br>
     <h3>
-        Vraag 2: Heb je interresse van het coderen van software (bijv. games , apps of websites)
+        Vraag 2: Heb je interresse van het coderen van software (bijv. games , apps of websites)?
     </h3>
       <input type="radio" id="Ja" name="vraag2" value="ja">
       <label for="ja">Ja, het lijkt me leuk</label><br>
@@ -69,7 +69,7 @@ include "../includes/NAV.php"
       <label for="matig">er tussen in</label>
     <br>
     <h3>
-        Vraag 5: Vindt je het leuk om computers te bouwen
+        Vraag 5: Vindt je het leuk om computers te bouwen?
     </h3>
       <input type="radio" id="Ja" name="vraag5" value="ja">
       <label for="ja">Ja, het lijkt me leuk</label><br>
@@ -79,7 +79,7 @@ include "../includes/NAV.php"
       <label for="matig">er tussen in</label>
     <br>
     <h3>
-    Vraag 6: heb je interesse gehad om websites of software te programeren
+    Vraag 6: heb je interesse gehad om websites of software te programeren?
     </h3>
       <input type="radio" id="Ja" name="vraag6" value="ja">
       <label for="ja">Ja, het lijkt me leuk</label><br>
@@ -89,7 +89,7 @@ include "../includes/NAV.php"
       <label for="matig">er tussen in</label>
     <br>
     <h3>
-        vraag 7: vind je het leuk om met virtuele machines te werken
+        vraag 7: vind je het leuk om met virtuele machines te werken?
     </h3>
       <input type="radio" id="Ja" name="vraag7" value="ja">
       <label for="ja">Ja, het lijkt me leuk</label><br>
@@ -108,7 +108,7 @@ include "../includes/NAV.php"
       <label for="matig"> er tussen in </label>
 
     <h3>
-        vraag 9: heb je interresse om computers/servers op te zetten
+        vraag 9: heb je interresse om computers/servers op te zetten?
     </h3>
       <input type="radio" id="Ja" name="vraag9" value="ja">
       <label for="ja"></label>Ik heb van anderen gehoord/gezien hoe het gedaan wordt en heb zin<br>
