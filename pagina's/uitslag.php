@@ -39,7 +39,7 @@
     <br>
     <?php
 
-    echo "Jouw gekozen antwoord is: ".$_GET['1'] ;
+    echo "Jouw gekozen antwoord is: ".$_POST['vraag1'] ;
 
     ?>
 </p>
@@ -48,7 +48,7 @@
         <br>
         <?php
 
-        echo "Jouw gekozen antwoord is: ".$_GET['1'] ;
+        echo "Jouw gekozen antwoord is: ".$_POST['vraag2'] ;
 
         ?>
     </p>
@@ -57,7 +57,7 @@
         <br>
         <?php
 
-        echo "Jouw gekozen antwoord is: ".$_GET['1'] ;
+        echo "Jouw gekozen antwoord is: ".$_POST['vraag3'] ;
 
         ?>
     </p>
@@ -66,7 +66,7 @@
         <br>
         <?php
 
-        echo "Jouw gekozen antwoord is: ".$_GET['1'] ;
+        echo "Jouw gekozen antwoord is: ".$_POST['vraag4'] ;
 
         ?>
     </p>
@@ -75,7 +75,7 @@
         <br>
         <?php
 
-        echo "Jouw gekozen antwoord is: ".$_GET['1'] ;
+        echo "Jouw gekozen antwoord is: ".$_POST['vraag5'] ;
 
         ?>
     </p>
@@ -84,88 +84,88 @@
         <br>
         <?php
 
-        echo "Jouw gekozen antwoord is: ".$_GET['1'] ;
+        echo "Jouw gekozen antwoord is: ".$_POST['vraag6'] ;
 
         ?>
     </p>
     <p>
-        Vraag 1: Heb jij echt verstand van computers en netwerken? Vind je het ook leuk om dienstverlenend te zijn?
+        vraag 7: vind je het leuk om met virtuele machines te werken?
         <br>
         <?php
 
-        echo "Jouw gekozen antwoord is: ".$_GET['1'] ;
+        echo "Jouw gekozen antwoord is: ".$_POST['vraag7'] ;
 
         ?>
     </p>
     <p>
-        Vraag 1: Heb jij echt verstand van computers en netwerken? Vind je het ook leuk om dienstverlenend te zijn?
+        vraag 8: heb je ooit willen weten hoe ze video games maken?
         <br>
         <?php
 
-        echo "Jouw gekozen antwoord is: ".$_GET['1'] ;
+        echo "Jouw gekozen antwoord is: ".$_POST['vraag8'] ;
 
         ?>
     </p>
     <p>
-        Vraag 1: Heb jij echt verstand van computers en netwerken? Vind je het ook leuk om dienstverlenend te zijn?
+        vraag 9: heb je interresse om computers/servers op te zetten?
         <br>
         <?php
 
-        echo "Jouw gekozen antwoord is: ".$_GET['1'] ;
+        echo "Jouw gekozen antwoord is: ".$_POST['vraag9'] ;
 
         ?>
     </p>
     <p>
-        Vraag 1: Heb jij echt verstand van computers en netwerken? Vind je het ook leuk om dienstverlenend te zijn?
+        vraag 10: kan je lang achter een computerscherm zitten?
         <br>
         <?php
 
-        echo "Jouw gekozen antwoord is: ".$_GET['1'] ;
+        echo "Jouw gekozen antwoord is: ".$_POST['vraag10'] ;
 
         ?>
     </p>
     <p>
-        Vraag 1: Heb jij echt verstand van computers en netwerken? Vind je het ook leuk om dienstverlenend te zijn?
+        vraag 11: vindt je het leuk om met netwerken te werken?
         <br>
         <?php
 
-        echo "Jouw gekozen antwoord is: ".$_GET['1'] ;
+        echo "Jouw gekozen antwoord is: ".$_POST['vraag11'] ;
 
         ?>
     </p>
     <p>
-        Vraag 1: Heb jij echt verstand van computers en netwerken? Vind je het ook leuk om dienstverlenend te zijn?
+        vraag 12: wil je later mensen helpen met hardware problemen van mensen/klanten?
         <br>
         <?php
 
-        echo "Jouw gekozen antwoord is: ".$_GET['1'] ;
+        echo "Jouw gekozen antwoord is: ".$_POST['vraag12'] ;
 
         ?>
     </p>
     <p>
-        Vraag 1: Heb jij echt verstand van computers en netwerken? Vind je het ook leuk om dienstverlenend te zijn?
+        vraag 13: vindt je het leuk om de verdediging van een website te testen?
         <br>
         <?php
 
-        echo "Jouw gekozen antwoord is: ".$_GET['1'] ;
+        echo "Jouw gekozen antwoord is: ".$_POST['vraag13'] ;
 
         ?>
     </p>
     <p>
-        Vraag 1: Heb jij echt verstand van computers en netwerken? Vind je het ook leuk om dienstverlenend te zijn?
+        vraag 14: vindt je leuk om te sleutelen met computers?
         <br>
         <?php
 
-        echo "Jouw gekozen antwoord is: ".$_GET['1'] ;
+        echo "Jouw gekozen antwoord is: ".$_POST['vraag14'] ;
 
         ?>
     </p>
     <p>
-        Vraag 1: Heb jij echt verstand van computers en netwerken? Vind je het ook leuk om dienstverlenend te zijn?
+        vraag 15: vindt je het leuk om mensen te verdedigen tegen cyber-aanvallen?
         <br>
         <?php
 
-        echo "Jouw gekozen antwoord is: ".$_GET['1'] ;
+        echo "Jouw gekozen antwoord is: ".$_POST['vraag15'] ;
 
         ?>
     </p>
