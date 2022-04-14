@@ -24,110 +24,89 @@ include "../includes/NAV.php"
 <br>
 <br>
 <br>
-<br>
-<br>
 <h1>
     Welkom op de Vragenlijst om een opleiding te zoeken die bij je past
 </h1>
 <form action="uitslag.php" method="post">
-    <?php
-    // <input type="radio" id="html" name="fav_language" value="HTML">
-    //  <label for="html">HTML</label><br>
-    //  <input type="radio" id="css" name="fav_language" value="CSS">
-    //  <label for="css">CSS</label><br>
-    //  <input type="radio" id="javascript" name="fav_language" value="JavaScript">
-    //  <label for="javascript">JavaScript</label>
-    ?>
     <h3>
         Vraag 1: Heb jij echt verstand van computers en netwerken? Vind je het ook leuk om dienstverlenend te zijn?
     </h3>
-    <br>
-    <input type="radio" name="antwoord1"> Ja
-    <br>
-    <input type="radio" name="antwoord2"> matig
-    <br>
-    <input type="radio" name="antwoord3"> nee
-    <br>
-    <input type="radio" name="antwoord4"> helemaal niet
+      <input type="radio" id="Ja" name="vraag1" value="ja">
+      <label for="ja">Ja, het lijkt me leuk</label><br>
+      <input type="radio" id="Nee" name="vraag1" value="nee">
+      <label for="nee">nee</label><br>
+      <input type="radio" id="Matig" name="vraag1" value="matig">
+      <label for="matig">er tussen in</label>
     <br>
     <h3>
         Vraag 2: Heb je interresse van het coderen van software (bijv. games , apps of websites)
     </h3>
-    <br>
-    <input type="radio" name="antwoord5"> Ja
-    <br>
-    <input type="radio" name="antwoord6"> matig
-    <br>
-    <input type="radio" name="antwoord7"> nee
-    <br>
-    <input type="radio" name="antwoord8"> helemaal niet
+      <input type="radio" id="Ja" name="vraag2" value="ja">
+      <label for="ja">Ja, het lijkt me leuk</label><br>
+      <input type="radio" id="Nee" name="vraag2" value="nee">
+      <label for="nee">nee</label><br>
+      <input type="radio" id="Matig" name="vraag2" value="matig">
+      <label for="matig">er tussen in</label>
     <br>
     <h3>
     Vraag 3: Voel je je thuis in virtual reality? Communiceer je goed in bits & bytes? Vind je het ook leuk om dienstverlenend te zijn?
     </h3>
-    <br>
-    <input type="radio" name="antwoord9"> Ja
-    <br>
-    <input type="radio" name="antwoord10"> matig
-    <br>
-    <input type="radio" name="antwoord11"> nee
-    <br>
-    <input type="radio" name="antwoord12"> helemaal niet
+      <input type="radio" id="Ja" name="vraag3" value="ja">
+      <label for="ja">Ja, het lijkt me leuk</label><br>
+      <input type="radio" id="Nee" name="vraag3" value="nee">
+      <label for="nee">nee</label><br>
+      <input type="radio" id="Matig" name="vraag3" value="matig">
+      <label for="matig">er tussen in</label>
     <br>
     <h3>
     Vraag 4: Wil jij later verantwoordelijk zijn voor de informatiesystemen waar de moderne maatschappij op draait?
     </h3>
-    <br>
-    <input type="radio" name="antwoord13"> Ja
-    <br>
-    <input type="radio" name="antwoord14"> matig
-    <br>
-    <input type="radio" name="antwoord15"> nee
-    <br>
-    <input type="radio" name="antwoord16"> helemaal niet
+      <input type="radio" id="Ja" name="vraag4" value="ja">
+      <label for="ja">Ja</label><br>
+      <input type="radio" id="Nee" name="vraag4" value="nee">
+      <label for="nee">nee</label><br>
+      <input type="radio" id="Matig" name="vraag4" value="matig">
+      <label for="matig">er tussen in</label>
     <br>
     <h3>
         Vraag 5: Vindt je het leuk om computers te bouwen
     </h3>
-    <br>
-    <input type="radio" name="antwoord17"> Ja, het lijkt me leuk
-    <br>
-    <input type="radio" name="antwoord18"> Ik heb al een gebouwt
-    <br>
-    <input type="radio" name="antwoord19"> nee
-    <br>
-    <input type="radio" name="antwoord20"> Ik heb er niet een gebouwt maar lijkt me wel leuk
+      <input type="radio" id="Ja" name="vraag5" value="ja">
+      <label for="ja">Ja, het lijkt me leuk</label><br>
+      <input type="radio" id="Nee" name="vraag5" value="nee">
+      <label for="nee">nee</label><br>
+      <input type="radio" id="Matig" name="vraag5" value="matig">
+      <label for="matig">er tussen in</label>
     <br>
     <h3>
     Vraag 6: heb je interesse gehad om websites of software te programeren
     </h3>
-    <br>
-    <input type="radio" name="antwoord21"> Ja, het lijkt me leuk
-    <br>
-    <input type="radio" name="antwoord22"> Ik heb al een website gemaakt
-    <br>
-    <input type="radio" name="antwoord23"> nee
-    <br>
-    <input type="radio" name="antwoord24"> Ik heb geen website gemaakt maar het lijkt wel leuk
+      <input type="radio" id="Ja" name="vraag6" value="ja">
+      <label for="ja">Ja, het lijkt me leuk</label><br>
+      <input type="radio" id="Nee" name="vraag6" value="nee">
+      <label for="nee">nee</label><br>
+      <input type="radio" id="Matig" name="vraag6" value="matig">
+      <label for="matig">er tussen in</label>
     <br>
     <h3>
         vraag 7: vind je het leuk om met virtuele machines te werken
     </h3>
-    <input type="radio" name="antwoord25"> Ja, het lijkt me leuk
-    <br>
-    <input type="radio" name="antwoord26"> Ik heb al eens met een virtuele machine gewerkt
-    <br>
-    <input type="radio" name="antwoord27"> nee
-    <br>
-    <input type="radio" name="antwoord28"> Ik heb geen verstand van virtuele machines maar het lijkt wel iets voor mij
+      <input type="radio" id="Ja" name="vraag7" value="ja">
+      <label for="ja">Ja, het lijkt me leuk</label><br>
+      <input type="radio" id="Nee" name="vraag7" value="nee">
+      <label for="nee">nee</label><br>
+      <input type="radio" id="Matig" name="vraag7" value="matig">
+      <label for="matig">er tussen in</label>
     <h3>
         vraag 8: heb je ooit willen weten hoe ze video games maken?
     </h3>
-    <input type="radio" name="antwoord29"> Ja
-    <br>
-    <input type="radio" name="antwoord30"> Ik heb van anderen gehoord/gezien hoe het gedaan wordt en heb zin
-    <br>
-    <input type="radio" name="antwoord31"> nee, ik heb geen zin
+      <input type="radio" id="Ja" name="vraag8" value="ja">
+      <label for="ja">Ja</label><br>
+      <input type="radio" id="Nee" name="vraag8" value="nee">
+      <label for="nee">nee, ik heb geen zin</label><br>
+      <input type="radio" id="Matig" name="vraag8" value="matig">
+      <label for="matig"> er tussen in </label>
+
     <h3>
         vraag 9: heb je interresse om computers/servers op te zetten
     </h3>
@@ -136,7 +115,7 @@ include "../includes/NAV.php"
       <input type="radio" id="Nee" name="vraag9" value="nee">
       <label for="nee"></label>nee, ik heb geen zin in het opzetten<br>
       <input type="radio" id="Matig" name="vraag9" value="matig">
-      <label for="matig"> ik heb een klein verstand van het bouwen van computers.</label>
+      <label for="matig"> er tussen in.</label>
 
     <h3>
         vraag 10: kan je lang achter een computerscherm zitten?
@@ -146,52 +125,52 @@ include "../includes/NAV.php"
       <input type="radio" id="Nee" name="vraag10" value="nee">
       <label for="nee">nee, ik ben actief</label><br>
       <input type="radio" id="Matig" name="vraag10" value="matig">
-      <label for="matig">ik kan soms lang en soms niet lang zitten.</label>
+      <label for="matig">er tussen in.</label>
     <h3>
-        vraag 11: kan je lang achter een computerscherm zitten?
+        vraag 11: vindt je het leuk om met netwerken te werken ?
     </h3>
       <input type="radio" id="Ja" name="vraag11" value="ja">
       <label for="ja">Ja, dat kan ik</label><br>
       <input type="radio" id="Nee" name="vraag11" value="nee">
       <label for="nee">nee, ik ben actief</label><br>
       <input type="radio" id="Matig" name="vraag11" value="matig">
-      <label for="matig">ik kan soms lang en soms niet lang zitten.</label>
+      <label for="matig">er tussen in.</label>
     <h3>
-        vraag 12: kan je lang achter een computerscherm zitten?
+        vraag 12: wil je later mensen helpen met hardware problemen van mensen/klanten?
     </h3>
-      <input type="radio" id="Ja" name="vraag10" value="ja">
-      <label for="ja">Ja, dat kan ik</label><br>
-      <input type="radio" id="Nee" name="vraag10" value="nee">
-      <label for="nee">nee, ik ben actief</label><br>
-      <input type="radio" id="Matig" name="vraag10" value="matig">
-      <label for="matig">ik kan soms lang en soms niet lang zitten.</label>
+      <input type="radio" id="Ja" name="vraag12" value="ja">
+      <label for="ja">Ja, dat vindt ik leuk</label><br>
+      <input type="radio" id="Nee" name="vraag12" value="nee">
+      <label for="nee">nee</label><br>
+      <input type="radio" id="Matig" name="vraag12" value="matig">
+      <label for="matig">er tussen in.</label>
     <h3>
-        vraag 13: kan je lang achter een computerscherm zitten?
+        vraag 13: vindt je het leuk om de verdediging van een website te testen?
     </h3>
-      <input type="radio" id="Ja" name="vraag10" value="ja">
-      <label for="ja">Ja, dat kan ik</label><br>
-      <input type="radio" id="Nee" name="vraag10" value="nee">
-      <label for="nee">nee, ik ben actief</label><br>
-      <input type="radio" id="Matig" name="vraag10" value="matig">
-      <label for="matig">ik kan soms lang en soms niet lang zitten.</label>
+      <input type="radio" id="Ja" name="vraag13" value="ja">
+      <label for="ja">Ja</label><br>
+      <input type="radio" id="Nee" name="vraag13" value="nee">
+      <label for="nee">nee</label><br>
+      <input type="radio" id="Matig" name="vraag13" value="matig">
+      <label for="matig">er tussen in.</label>
     <h3>
-        vraag 14: kan je lang achter een computerscherm zitten?
+        vraag 14: vindt je leuk om te sleutelen met computers?
     </h3>
-      <input type="radio" id="Ja" name="vraag10" value="ja">
-      <label for="ja">Ja, dat kan ik</label><br>
-      <input type="radio" id="Nee" name="vraag10" value="nee">
-      <label for="nee">nee, ik ben actief</label><br>
-      <input type="radio" id="Matig" name="vraag10" value="matig">
-      <label for="matig">ik kan soms lang en soms niet lang zitten.</label>
+      <input type="radio" id="Ja" name="vraag14" value="ja">
+      <label for="ja">Ja, dat vindt ik leuk</label><br>
+      <input type="radio" id="Nee" name="vraag14" value="nee">
+      <label for="nee">nee, ik vindt dat niet leuk</label><br>
+      <input type="radio" id="Matig" name="vraag14" value="matig">
+      <label for="matig">er tussen in.</label>
     <h3>
-        vraag 15: kan je lang achter een computerscherm zitten?
+        vraag 15: vindt je het leuk om mensen te verdedigen tegen cyber-aanvallen?
     </h3>
-      <input type="radio" id="Ja" name="vraag10" value="ja">
-      <label for="ja">Ja, dat kan ik</label><br>
-      <input type="radio" id="Nee" name="vraag10" value="nee">
-      <label for="nee">nee, ik ben actief</label><br>
-      <input type="radio" id="Matig" name="vraag10" value="matig">
-      <label for="matig">ik kan soms lang en soms niet lang zitten.</label>
+      <input type="radio" id="Ja" name="vraag15" value="ja">
+      <label for="ja">Ja</label><br>
+      <input type="radio" id="Nee" name="vraag15" value="nee">
+      <label for="nee">nee, ik vindt dat niet zo leuk</label><br>
+      <input type="radio" id="Matig" name="vraag15" value="matig">
+      <label for="matig">er tussen in.</label>
     <br>
     <br>
     <input type="submit" name="verzend">
