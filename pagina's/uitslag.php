@@ -33,11 +33,142 @@
 <p>hier kan je naar de pagina van jouw advies</p>
 <p>bij vraag 1 heb je ... gekozen</p>
 
-
-
+<br><br><br>
+<p>
+    Vraag 1: Heb jij echt verstand van computers en netwerken? Vind je het ook leuk om dienstverlenend te zijn?
+    <br>
     <?php
-    echo "Study " . $_GET['subject'] . " at " . $_GET['name'];
+
+    echo "Jouw gekozen antwoord is: ".$_GET['1'] ;
+
     ?>
+</p>
+    <p>
+        Vraag 2: Heb je interresse van het coderen van software (bijv. games , apps of websites)
+        <br>
+        <?php
+
+        echo "Jouw gekozen antwoord is: ".$_GET['1'] ;
+
+        ?>
+    </p>
+    <p>
+        Vraag 3: Voel je je thuis in virtual reality? Communiceer je goed in bits & bytes? Vind je het ook leuk om dienstverlenend te zijn?
+        <br>
+        <?php
+
+        echo "Jouw gekozen antwoord is: ".$_GET['1'] ;
+
+        ?>
+    </p>
+    <p>
+        Vraag 4: Wil jij later verantwoordelijk zijn voor de informatiesystemen waar de moderne maatschappij op draait?
+        <br>
+        <?php
+
+        echo "Jouw gekozen antwoord is: ".$_GET['1'] ;
+
+        ?>
+    </p>
+    <p>
+        Vraag 5: Vindt je het leuk om computers te bouwen
+        <br>
+        <?php
+
+        echo "Jouw gekozen antwoord is: ".$_GET['1'] ;
+
+        ?>
+    </p>
+    <p>
+        Vraag 6: heb je interesse gehad om websites of software te programeren
+        <br>
+        <?php
+
+        echo "Jouw gekozen antwoord is: ".$_GET['1'] ;
+
+        ?>
+    </p>
+    <p>
+        Vraag 1: Heb jij echt verstand van computers en netwerken? Vind je het ook leuk om dienstverlenend te zijn?
+        <br>
+        <?php
+
+        echo "Jouw gekozen antwoord is: ".$_GET['1'] ;
+
+        ?>
+    </p>
+    <p>
+        Vraag 1: Heb jij echt verstand van computers en netwerken? Vind je het ook leuk om dienstverlenend te zijn?
+        <br>
+        <?php
+
+        echo "Jouw gekozen antwoord is: ".$_GET['1'] ;
+
+        ?>
+    </p>
+    <p>
+        Vraag 1: Heb jij echt verstand van computers en netwerken? Vind je het ook leuk om dienstverlenend te zijn?
+        <br>
+        <?php
+
+        echo "Jouw gekozen antwoord is: ".$_GET['1'] ;
+
+        ?>
+    </p>
+    <p>
+        Vraag 1: Heb jij echt verstand van computers en netwerken? Vind je het ook leuk om dienstverlenend te zijn?
+        <br>
+        <?php
+
+        echo "Jouw gekozen antwoord is: ".$_GET['1'] ;
+
+        ?>
+    </p>
+    <p>
+        Vraag 1: Heb jij echt verstand van computers en netwerken? Vind je het ook leuk om dienstverlenend te zijn?
+        <br>
+        <?php
+
+        echo "Jouw gekozen antwoord is: ".$_GET['1'] ;
+
+        ?>
+    </p>
+    <p>
+        Vraag 1: Heb jij echt verstand van computers en netwerken? Vind je het ook leuk om dienstverlenend te zijn?
+        <br>
+        <?php
+
+        echo "Jouw gekozen antwoord is: ".$_GET['1'] ;
+
+        ?>
+    </p>
+    <p>
+        Vraag 1: Heb jij echt verstand van computers en netwerken? Vind je het ook leuk om dienstverlenend te zijn?
+        <br>
+        <?php
+
+        echo "Jouw gekozen antwoord is: ".$_GET['1'] ;
+
+        ?>
+    </p>
+    <p>
+        Vraag 1: Heb jij echt verstand van computers en netwerken? Vind je het ook leuk om dienstverlenend te zijn?
+        <br>
+        <?php
+
+        echo "Jouw gekozen antwoord is: ".$_GET['1'] ;
+
+        ?>
+    </p>
+    <p>
+        Vraag 1: Heb jij echt verstand van computers en netwerken? Vind je het ook leuk om dienstverlenend te zijn?
+        <br>
+        <?php
+
+        echo "Jouw gekozen antwoord is: ".$_GET['1'] ;
+
+        ?>
+    </p>
 
 
 </body>
