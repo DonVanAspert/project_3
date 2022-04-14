@@ -127,7 +127,7 @@ include "../includes/NAV.php"
       <input type="radio" id="Matig" name="vraag10" value="matig">
       <label for="matig">er tussen in.</label>
     <h3>
-        vraag 11: vindt je het leuk om met netwerken te werken ?
+        vraag 11: vindt je het leuk om met netwerken te werken?
     </h3>
       <input type="radio" id="Ja" name="vraag11" value="ja">
       <label for="ja">Ja, dat kan ik</label><br>
