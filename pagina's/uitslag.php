@@ -14,6 +14,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="../styles/stylesheet.css" rel="stylesheet">
 </head>
+<?php
+// hier wordt de geinclude nav neergezet
+?>
 <body class="body_uitslag">
     <?php
         include_once '../includes/NAV.php';
@@ -31,13 +34,19 @@
 
 
 
-
+<?php
+// hieronder staat de datum van vandaag
+?>
 
 <div class="date">
     <?php
 
     echo "De datum van vandaag is: " . date("Y/m/d") ;
 
+    ?>
+
+    <?php
+    // hier wordt de ingevulde naam laten zien
     ?>
 </div>
     <div class="name">
@@ -49,6 +58,12 @@
     <br>
     </div>
 
+    <p>
+        Hieronder staan de antwoorder die jij gesselecteerd hebt.
+    </p>
+    <?php
+    // hieronder staan alle ingevulde vragen
+    ?>
 <p>
     Vraag 1: Heb jij echt verstand van computers en netwerken? Vind je het ook leuk om dienstverlenend te zijn?
     <br>
