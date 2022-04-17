@@ -29,24 +29,25 @@
     <br>
 
 
-<p>dit is je advies</p>
-<p>hier kan je naar de pagina van jouw advies</p>
 
 
-<br><br><br>
 
-    <?php
 
-    echo "hallo ".$_POST['naam'] ;
-
-    ?>
-    <br>
-
+<div class="date">
     <?php
 
     echo "De datum van vandaag is: " . date("Y/m/d") ;
 
     ?>
+</div>
+    <div class="name">
+    <?php
+
+    echo "Hallo ".$_POST['naam'] ;
+
+    ?>
+    <br>
+    </div>
 
 <p>
     Vraag 1: Heb jij echt verstand van computers en netwerken? Vind je het ook leuk om dienstverlenend te zijn?
@@ -183,10 +184,6 @@
 
         ?>
     </p>
-<?php
-
-
-?>
 
 </body>
 </html>
