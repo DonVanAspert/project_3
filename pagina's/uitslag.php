@@ -14,7 +14,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="../styles/stylesheet.css" rel="stylesheet">
 </head>
-<body>
+<body class="body_uitslag">
     <?php
         include_once '../includes/NAV.php';
     ?>
@@ -27,13 +27,27 @@
     <br>
     <br>
     <br>
-<p>Hallo, NAME</p>
-<p>datum</p>
+
+
 <p>dit is je advies</p>
 <p>hier kan je naar de pagina van jouw advies</p>
-<p>bij vraag 1 heb je ... gekozen</p>
+
 
 <br><br><br>
+
+    <?php
+
+    echo "hallo ".$_POST['naam'] ;
+
+    ?>
+    <br>
+
+    <?php
+
+    echo "De datum van vandaag is: " . date("Y/m/d") ;
+
+    ?>
+
 <p>
     Vraag 1: Heb jij echt verstand van computers en netwerken? Vind je het ook leuk om dienstverlenend te zijn?
     <br>
@@ -43,7 +57,7 @@
 
     ?>
 </p>
-    <p>
+    <p class="dark">
         Vraag 2: Heb je interresse van het coderen van software (bijv. games , apps of websites)
         <br>
         <?php
@@ -61,7 +75,7 @@
 
         ?>
     </p>
-    <p>
+    <p class="dark">
         Vraag 4: Wil jij later verantwoordelijk zijn voor de informatiesystemen waar de moderne maatschappij op draait?
         <br>
         <?php
@@ -79,7 +93,7 @@
 
         ?>
     </p>
-    <p>
+    <p class="dark">
         Vraag 6: heb je interesse gehad om websites of software te programeren
         <br>
         <?php
@@ -97,7 +111,7 @@
 
         ?>
     </p>
-    <p>
+    <p class="dark">
         vraag 8: heb je ooit willen weten hoe ze video games maken?
         <br>
         <?php
@@ -115,7 +129,7 @@
 
         ?>
     </p>
-    <p>
+    <p class="dark">
         vraag 10: kan je lang achter een computerscherm zitten?
         <br>
         <?php
@@ -133,7 +147,7 @@
 
         ?>
     </p>
-    <p>
+    <p class="dark">
         vraag 12: wil je later mensen helpen met hardware problemen van mensen/klanten?
         <br>
         <?php
@@ -151,7 +165,7 @@
 
         ?>
     </p>
-    <p>
+    <p class="dark">
         vraag 14: vindt je leuk om te sleutelen met computers?
         <br>
         <?php
@@ -169,7 +183,10 @@
 
         ?>
     </p>
+<?php
 
+
+?>
 
 </body>
 </html>
