@@ -4,6 +4,50 @@ Auteur: don, Arda, Tygo
 
 instructie pagina
 */
+@media screen and (max-width: 1300px)
+{
+    header
+    {
+        position: static;
+        padding: 5px;               /*opvulling toevoegen*/
+        width: 80px;
+        height: 100%;
+        float: left;                            /*navigatie balk pagina text positioneren naast elkaar*/
+        top: 0;
+        left: 0;
+        background-color: #0085ca!important;                    /*het toevoegen van een belangrijke kleur*/
+    }
+    a
+    {
+        color: white;
+    }
+    li
+    {
+        float: left;
+        font-style: normal;
+        margin-top: 1px;
+    }
+    li > a
+    {
+        float: left;
+        text-decoration: none;
+        padding: 2px;               /*opvulling toevoegen*/
+        font-size: 15px;
+    }
+    a.nav:hover
+    {
+        padding: 2px;
+    }
+    #logo_KW1C
+    {
+        float: left;
+        width: 40px;
+        top: 0;
+        margin-top: -15px;
+        margin-bottom: 2px;
+    }
+
+}
 body
 {
     background-color: #66b6df;
@@ -56,6 +100,7 @@ li > a
 #home_img
 {
     width: 100%;
+    margin-top: 40px;
     float: left;
 }
 #H1_homepage
@@ -111,18 +156,28 @@ iframe
     padding: 20px;
     text-align: center;
 }
+#warning_questionCheck
+{
+    text-align: center;
+}
 #submit_block
 {
     padding: 10px;
-    background-color: red;
+    background-color: #0085ca;
+    color: white;
     margin-left: calc(50% - 12px);
     margin-bottom: 20px;
     border-color: #0085ca;
-    color: #0085ca;
 }
-input
+label
 {
     text-align: center;
+    background-color: #0085ca;
+    color: white;
+    padding: 15px 32px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
 }
 
 /* uitslag pagina*/

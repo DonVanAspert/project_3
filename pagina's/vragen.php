@@ -37,7 +37,7 @@ include "../includes/NAV.php"
     <h3>
         Vraag 1: Heb jij echt verstand van computers en netwerken? Vind je het ook leuk om dienstverlenend te zijn?
     </h3>
-      <input type="radio" id="Ja" name="vraag1" value="ja"  >
+      <input type="radio" id="Ja" name="vraag1" value="ja">
       <label for="ja">Ja, het lijkt me leuk</label><br>
       <input type="radio" id="Nee" name="vraag1" value="nee">
       <label for="nee">nee</label><br>
@@ -117,9 +117,9 @@ include "../includes/NAV.php"
         vraag 9: heb je interresse om computers/servers op te zetten?
     </h3>
       <input type="radio" id="Ja" name="vraag9" value="ja">
-      <label for="ja"></label>Ik heb van anderen gehoord/gezien hoe het gedaan wordt en heb zin<br>
+      <label for="ja">Ik heb van anderen gehoord/gezien hoe het gedaan wordt en heb zin</label><br>
       <input type="radio" id="Nee" name="vraag9" value="nee">
-      <label for="nee"></label>nee, ik heb geen zin in het opzetten<br>
+      <label for="nee">nee, ik heb geen zin in het opzetten</label><br>
       <input type="radio" id="Matig" name="vraag9" value="matig">
       <label for="matig"> er tussen in.</label>
 
@@ -179,10 +179,10 @@ include "../includes/NAV.php"
       <label for="matig">er tussen in.</label>
     <br>
     <br>
-    <h2>
-        !!!!! Alleen klikken als je alle vragen heb aangeklikt !!!!!
+    <h2 id="warning_questionCheck">
+        !!!!! Alleen klikken als je alle vragen hebt aangeklikt !!!!!
     </h2>
-    <input type="submit" name="verzend">
+    <input id="submit_block" type="submit" name="verzend">
 </form>
 </body>
 </html>
