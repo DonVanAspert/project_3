@@ -37,7 +37,7 @@ include "../includes/NAV.php"
     <h3>
         Vraag 1: Heb jij echt verstand van computers en netwerken? Vind je het ook leuk om dienstverlenend te zijn?
     </h3>
-      <input type="radio" id="Ja" name="vraag1" value="ja">
+      <input type="radio" id="Ja" name="vraag1" value="ja"  >
       <label for="ja">Ja, het lijkt me leuk</label><br>
       <input type="radio" id="Nee" name="vraag1" value="nee">
       <label for="nee">nee</label><br>
