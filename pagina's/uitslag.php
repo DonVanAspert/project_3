@@ -220,8 +220,8 @@
     <?php
     {
 // maakt een variabelen waarbij alle vragen bij elkaar opgeteld worden
-        //$uitslag= $vraag1 + $vraag2 + $vraag3 + $vraag4 + $vraag5 + $vraag6 + $vraag7 + $vraag8 + $vraag9 + $vraag10 +$vraag11+$vraag12;
-        $uitslag = 13;
+        $uitslag= $vraag1 + $vraag2 + $vraag3 + $vraag4 + $vraag5 + $vraag6 + $vraag7 + $vraag8 + $vraag9 + $vraag10 +$vraag11+$vraag12;
+
     }
     // if statement waarbij er gekeken word of de uitslag lager of gelijk aan 6 is dit het geval dan toont hij de tekst "dit past niet bij jou"
     if ($uitslag <=6)
@@ -234,7 +234,7 @@
         // elseif statement waarbij er gekeken word of de uitslag lager of gelijk aan 112 is dit het geval dan toont hij de tekst
         // " de opleiding die bij jou past is Allround medewerker IT systems and Devices(BOL)"
         echo "<h2 class='greet'></h2><h2 class='opleiding'> de opleiding die bij jou past is Allround medewerker IT systems and Devices(BOL)</h2>";
-        echo "<h2> <a class='Info' href='https://www.kw1c.nl/opleiding/25605o10/allround-medewerker-it-systems-and-devices-bol%27%3E Informatie link </h2> ";
+        echo "<h2> <a class='Info' href='https://www.kw1c.nl/opleiding/25605o10/allround-medewerker-it-systems-and-devices-bol%27%3E Informatie link </h2>" . "Klik hier om naar de opleiding te kijken." . "</a>";
         echo "<p> <img class='Opleidingimg' src='../images/allround.jpg' </p>";
 
     }
@@ -244,7 +244,7 @@
         // elseif statement waarbij er gekeken word of de uitslag lager of gelijk aan 24 is dit het geval dan toont hij de tekst
         // " de opleiding sie bij jouw past is is Software Developer (BOL)"
         echo "<h2 class='greet'></h2><h2 class='opleiding'> de opleiding die bij jouw past is is Software Developer (BOL)</h2> ";
-        echo "<h2> <a class='Info' href='https://www.kw1c.nl/opleiding/25604o10/software-developer-bol%27%3E Informatie link </h2> ";
+        echo "<h2> <a class='Info' href='https://www.kw1c.nl/opleiding/25604o10/software-developer-bol%27%3E Informatie link </h2>" . "Klik hier om naar de opleiding te kijken." . "</a>";
         echo "<p> <img class='Opleidingimg' src='../images/ict.jpg' </p>";
     }
     //$show naam
