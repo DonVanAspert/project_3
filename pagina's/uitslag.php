@@ -200,56 +200,11 @@
         ?>
     </p>
 
-<?php
-    $vraag1 = $_POST['vraag1'];
-    $vraag2 = $_POST['vraag2'];
-    $vraag3 = $_POST['vraag3'];
-    $vraag4 = $_POST['vraag4'];
-    $vraag5 = $_POST['vraag5'];
-    $vraag6 = $_POST['vraag6'];
-    $vraag7 = $_POST['vraag7'];
-    $vraag8 = $_POST['vraag8'];
-    $vraag9 = $_POST['vraag9'];
-    $vraag10 = $_POST['vraag10'];
-    $vraag11 = $_POST['vraag11'];
-    $vraag12 = $_POST['vraag12'];
-    $vraag13 = $_POST['vraag13'];
-    ?>
 
 
-    <?php
-    {
-// maakt een variabelen waarbij alle vragen bij elkaar opgeteld worden
-        $uitslag= $vraag1 + $vraag2 + $vraag3 + $vraag4 + $vraag5 + $vraag6 + $vraag7 + $vraag8 + $vraag9 + $vraag10 +$vraag11+$vraag12;
 
-    }
-    // if statement waarbij er gekeken word of de uitslag lager of gelijk aan 6 is dit het geval dan toont hij de tekst "dit past niet bij jou"
-    if ($uitslag <=6)
-    {
-        echo "<h2 class='greet'></h2><h2 class='opleiding'> dit past niet bij jou </h2>";
-    }
-    elseif
-    ($uitslag <=12)
-    {
-        // elseif statement waarbij er gekeken word of de uitslag lager of gelijk aan 112 is dit het geval dan toont hij de tekst
-        // " de opleiding die bij jou past is Allround medewerker IT systems and Devices(BOL)"
-        echo "<h2 class='greet'></h2><h2 class='opleiding'> de opleiding die bij jou past is Allround medewerker IT systems and Devices(BOL)</h2>";
-        echo "<h2> <a class='Info' href='https://www.kw1c.nl/opleiding/25605o10/allround-medewerker-it-systems-and-devices-bol%27%3E Informatie link </h2>" . "Klik hier om naar de opleiding te kijken." . "</a>";
-        echo "<p> <img class='Opleidingimg' src='../images/allround.jpg' </p>";
 
-    }
-    elseif
-    ($uitslag <=24)
-    {
-        // elseif statement waarbij er gekeken word of de uitslag lager of gelijk aan 24 is dit het geval dan toont hij de tekst
-        // " de opleiding sie bij jouw past is is Software Developer (BOL)"
-        echo "<h2 class='greet'></h2><h2 class='opleiding'> de opleiding die bij jouw past is is Software Developer (BOL)</h2> ";
-        echo "<h2> <a class='Info' href='https://www.kw1c.nl/opleiding/25604o10/software-developer-bol%27%3E Informatie link </h2>" . "Klik hier om naar de opleiding te kijken." . "</a>";
-        echo "<p> <img class='Opleidingimg' src='../images/ict.jpg' </p>";
-    }
-    //$show naam
-    //$naam = $_POST
-    ?>
+
 </body>
 </html>
 
